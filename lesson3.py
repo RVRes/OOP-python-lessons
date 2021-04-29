@@ -48,6 +48,11 @@ class Point:
         else:
             self.__dict__[key] = value
 
+    def __getattr__(self, item):
+        print('__getattr__:' + item)
+
+    def __delattr__(self, item):
+        print('__delattr__:' + item)
 
 p = Point(5, 10)
 # print(p.__x, p.__y)
@@ -58,3 +63,8 @@ p.set_coords('11', 6)
 p.render()
 print(p.get_coords())
 print(p._Point__x)
+print('-'*100)
+print(p.zzz)
+p.zz = 1
+del p.zz
+

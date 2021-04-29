@@ -4,7 +4,7 @@ class Coord_value:
     #     self.__name = name
 
     def __set_name__(self, owner, name):
-        print(name)
+        # print(name)
         self.__name = name
 
 
