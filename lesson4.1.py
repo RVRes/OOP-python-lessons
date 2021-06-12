@@ -33,3 +33,4 @@ class Point:
 pt = Point(4,5)
 pt.coordX = 1
 print(pt.coordX, pt.coordY)
+print(pt.__dict__)

@@ -1,3 +1,4 @@
+# https://www.youtube.com/watch?v=zwel95I7O88
 class Point:
     def __init__(self, x=0, y=0):
         self.__x = x
