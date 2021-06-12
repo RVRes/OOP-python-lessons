@@ -133,3 +133,5 @@ dmypy.json
 /.idea/OOP-python-lessons.iml
 /.idea/inspectionProfiles/profiles_settings.xml
 /.idea/vcs.xml
+
+.idea/
